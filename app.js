@@ -19,6 +19,14 @@ app.get("/", (req, res) =>{
     res.render("index", {titulo: "Pagina de Inicio", nombre: "Josue Ortiz Ochoa"})
 })
 
+app.get("/login", (req, res) =>{
+    res.render("login", {titulo: "Login", nombre: "Josue Ortiz Ochoa"})
+})
+
+app.get("/register", (req, res) =>{
+    res.render("register", {titulo: "Login", nombre: "Josue Ortiz Ochoa"})
+})
+
 app.get("/contactame", (req, res) =>{
     res.render("contactame", {titulo: "Contactame"})
 })

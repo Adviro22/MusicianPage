@@ -11506,8 +11506,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Fondo.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Fondo.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11682,3 +11682,42 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+/* Estilos para los contenedores de los videos */
+.about-card {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.about-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.about-card p {
+  font-size: 16px;
+}
+
+.about-card iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.about-card button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.about-card button:hover {
+  background-color: #c82333;
+}
+

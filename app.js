@@ -45,6 +45,28 @@ app.get("/contactame", (req, res) => {
   res.render("contactame", { titulo: "Contactame" });
 });
 
+//BLOG
+
+app.get("/blog", (req, res) => {
+  res.render("blog", { titulo: "Blog" });
+});
+
+//POSTS
+
+app.get("/blog/post/1", (req, res) => {
+  res.render("post1", { titulo: "Posts" });
+});
+
+app.get("/blog/post/2", (req, res) => {
+  res.render("post2", { titulo: "Posts" });
+});
+
+app.get("/blog/post/3", (req, res) => {
+  res.render("post3", { titulo: "Posts" });
+});
+
+//
+
 app.get("/menu-subida-archivo", auth, (req, res) => {
   // Obtener información del usuario de la sesión
   const user = req.session.user;
